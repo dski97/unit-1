@@ -10,35 +10,19 @@
         <!--[if IE<9]>
             <link rel="stylesheet" href="css/style.ie.css">
         <![endif]-->
+
+         <!--you can also place internal styles here;
+             place these within <style> tags-->
         
-        <!--you can also place internal styles here
-        place these within <style> tags-->  
-            <style>
-                #mydiv {
-                    background-color: rgb(156, 0, 0);
-                    width: 80%;
-                    margin: 0 auto;
-                    height: 100px;
-                }
-            </style>
-         </head>
+    </head>
 
     <body>
-        <!--put your initial page content here-->
-        Body test
+        <!--add a div element with an id attribute of mydriv -->
+        <div id="mydiv"> </div>
         <!--you can also use this space for internal scripts;
         place these within <script> tags-->
-            <div id="mydiv">
-                Hello World!
-            </div>
-        
-            <script>
-                var mydiv = document.getElementById("mydiv");
-                mydiv.addEventListener("click", function() {
-                    alert("Hello World!")
-                });
-            </script>
+
         <!--put your external script links here-->
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/main_with_debug.js"></script>
     </body>
 </html>
